@@ -1,0 +1,18 @@
+.Nav{
+    width: 30%;
+}
+.Nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.Nav ul li{
+   font-size: 20px;
+   font-weight: 900;
+}
+.NavUp{
+    display: flex;
+    justify-content: space-between;
+   
+}
