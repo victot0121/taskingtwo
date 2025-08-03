@@ -1,13 +1,13 @@
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from "../pages/HomePage";
-import AboutPage from "../pages/AboutPage";
-import SkillPage from "../Pages/SkillPage";
-import ProjectPage from "../pages/ProjectPage";
-import ContactPage from "../pages/ContactPage";
-import Resume from "../components/Resume";
-import ServicePage from "../pages/ServicePage";
-import SkillPage from './Pages/SkillPage';
-import ProjectPage from './Pages/ProjectPage';
+import HomePage from "./Pages/HomePages";
+import AboutPage from "./pages/AboutPage";
+import SkillPage from "./Pages/SkillPage";
+import ProjectPage from "./pages/ProjectPage";
+import ContactPage from "./pages/ContactPage";
+import Resume from "./components/Resume";
+import ServicePage from "./pages/ServicePage";
+
 
 
  function App() {
@@ -27,4 +27,4 @@ import ProjectPage from './Pages/ProjectPage';
   );
 }
 
-export default App
+export default App;

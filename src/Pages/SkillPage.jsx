@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
 import Ade from '../assets/ade.png';
+import './SkillPage.css';
 
 const SkillPage = () => {
 
@@ -10,9 +11,10 @@ const SkillPage = () => {
     <>
     <div>
       <Navbar />
-      <h2 className="h2"> Skills & Expertise</h2>
+      <div className="skillpage">
       <img src={Ade} alt="Oladoye Jelili Ademola" className="bg" />
       <p>I bring together a diverse and complementary skill set across tech, data, design, and AI, making me a versatile digital problem solver.</p>
+      </div>
       <div className="purpuse">
         <h3 className="h3">My Skills</h3>
         <p className="p-task">

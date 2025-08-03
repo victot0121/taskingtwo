@@ -1,0 +1,84 @@
+.information {
+  min-height: 100vh;
+  background: radial-gradient(circle at center, rgba(6, 6, 20) 20%, red 250%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.information .h2 {
+  font-size: 2.5rem;
+  color: #0f4c75;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  border-bottom: 3px solid #00c3ff;
+  padding-bottom: 0.5rem;
+}
+
+.confirm {
+  background: #ffffffc7;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  backdrop-filter: blur(10px);
+}
+
+.info,
+.info-1,
+.info-2 {
+  font-size: 1rem;
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  color: #111827;
+}
+
+.info:focus,
+.info-1:focus,
+.info-2:focus {
+  outline: none;
+  border-color: #00c3ff;
+  box-shadow: 0 0 5px rgba(0, 195, 255, 0.4);
+}
+
+.btn-black {
+  background-color: #0f4c75;
+  color: white;
+  padding: 0.9rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-black:hover {
+  background-color: #3282b8;
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 600px) {
+  .information .h2 {
+    font-size: 1.8rem;
+  }
+}
+  .confirm {
+    padding: 2rem 1rem;
+  }
+
+  .info,
+  .info-1,
+  .info-2 {
+    font-size: 0.95rem;
+  }

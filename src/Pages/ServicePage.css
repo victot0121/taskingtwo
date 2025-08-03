@@ -1,0 +1,64 @@
+.servicepage {
+ background: radial-gradient(circle at center, rgba(6, 6, 20) 20%, red 250%);
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+.servicepage h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0f4c75;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid #00c3ff;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.bg {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #00c3ff;
+  box-shadow: 0 0 20px rgba(0, 195, 255, 0.3);
+  margin: 1.5rem auto;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.bg:hover {
+  transform: scale(1.05);
+}
+
+.h3 {
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: #ffffffd9;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(10px);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #374151;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .servicepage h2 {
+    font-size: 2rem;
+  }
+}
+  .bg {
+    width: 110px;
+    height: 110px;
+  }
+
+  .h3 {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }

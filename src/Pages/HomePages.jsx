@@ -2,13 +2,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Ade from "../assets/ade.png";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-import "./Home.css";
+import "./HomePages.css";
 
-const HomePage = () => {
+const HomePages = () => {
   return (
     <>
       <Navbar />
-      <div className="homepage">
+      <div className="homepages">
         <div>
           <img src={Ade} alt="Oladoye Jelili Ademola" className="bg" />
            <h2>Oladoye Jelili Ademola</h2>
@@ -30,4 +30,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default HomePages;

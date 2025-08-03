@@ -1,5 +1,6 @@
 import Ade from "../assets/ade.png";
 import Navbar from "../Components/Navbar";
+import "../Pages/AboutPage.css";
 
 
 const AboutPage = () => {
@@ -11,11 +12,12 @@ const AboutPage = () => {
       <div className="about">
          <div className='about-title'>
             <h1 className='h1'> About Me </h1>
-            <p className='p'> Hi! I'm Oladoye Jelili Ademola, a passionate digital creative blending design, data, and to craft purposeful solutions.</p>
           </div>
       </div>      
           <div className='about-image'>
             <img src={Ade} alt='Oladoye Jelili Ademola'  className="bg"/>
+
+            <p className='p'> Hi! I'm Oladoye Jelili Ademola, a passionate digital creative blending design, data, and to craft purposeful solutions.</p>
 
             <p className='p'> A digital creative with a passion for design, data, and technology.</p>
         

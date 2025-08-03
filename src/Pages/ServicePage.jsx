@@ -1,7 +1,7 @@
-import React from 'react';
 import Navbar from '../Components/Navbar'
-import Website from "../assets/website.png";
-import Graphic from "../assets/graphic.png";
+import Website from "../assets/website.jpg";
+import Graphic from "../assets/graph.jpg";
+import './ServicePage.css';
 
 const ServicePage = () => {
   return (
@@ -35,6 +35,3 @@ const ServicePage = () => {
 }
 
 export default ServicePage;
-  
-
-

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import Navbar from '../Components/Navbar'
+import '../Pages/ContactPage.css';
 
  const ContactPage = () => {
 

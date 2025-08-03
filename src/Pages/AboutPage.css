@@ -1,0 +1,108 @@
+.about {
+  padding: 4rem 2rem 2rem;
+  color: #1f2937;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background: radial-gradient(circle at center, rgba(6, 6, 20) 40%, red 250%);
+}
+
+.about-image {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-title .h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  border-bottom: 4px solid #00c3ff;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.about-image .bg {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #00c3ff;
+  box-shadow: 0 0 25px rgba(0, 195, 255, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.about-image .bg:hover {
+  transform: scale(1.05);
+}
+
+.about-image .p {
+  max-width: 900px;
+  font-size: 3.1rem;
+  color: black;
+  margin-top: 1.2rem;
+  line-height: 1.7;
+}
+
+.about-section {
+  margin: 3rem auto 0;
+  padding: 2.5rem;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+
+.about-task-title .h2 {
+  font-size: 2rem;
+  color: #0f4c75;
+  margin-bottom: 1.5r easem;
+}
+
+.about-task-title p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: 1.2rem;
+  color: #3b3b3b;
+}
+
+.button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn-black {
+  padding: 0.8rem 2rem;
+  background-color: #0f4c75;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3se, transform 0.3s ease;
+}
+
+.btn-black:hover {
+  background-color: #3282b8;
+  transform: translateY(-2px);
+}
+
+
+  .about-image .bg {
+    width: 120px;
+    height: 120px;
+  }
+
+  .about-image .p, .about-task-title p {
+    font-size: 1rem;
+  }
+
+  .about-task-title .h2 {
+    font-size: 1.5rem;
+  }

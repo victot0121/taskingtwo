@@ -1,0 +1,92 @@
+.resume {
+  padding: 4rem 2rem 2rem;
+  color: #1f2937;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background: radial-gradient(circle at center, rgba(6, 6, 20) 40%, red 250%);
+}
+
+.resume img.bg {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #0f4c75;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.resume h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0f4c75;
+  margin-bottom: 0.5rem;
+}
+
+.resume-page p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  color: #374151;
+}
+
+.resume-content {
+  background: #ffffff;
+  padding: 2rem;
+  max-width: 750px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 76, 117, 0.15);
+}
+
+.resume-content .h1 {
+  font-size: 2.2rem;
+  color: #0f4c75;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #00b4d8;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+}
+
+.resume-content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.resume-content a button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #0f4c75;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.resume-content a button:hover {
+  background-color: #3282b8;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .resume {
+    padding: 3rem 1rem;
+  }
+}
+  .resume img.bg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .resume-content {
+    padding: 1.5rem;
+  }
+
+  .resume-content .h1 {
+    font-size: 1.8rem;
+  }
