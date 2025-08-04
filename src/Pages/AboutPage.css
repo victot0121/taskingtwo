@@ -93,6 +93,12 @@
   transform: translateY(-2px);
 }
 
+@media screen and (max-width: 768px) {
+  .about-title .h1 {
+    font-size: 2rem;
+  }
+
+}
 
   .about-image .bg {
     width: 120px;
