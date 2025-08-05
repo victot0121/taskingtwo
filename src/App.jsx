@@ -4,7 +4,7 @@ import HomePage from "./Pages/HomePages";
 import AboutPage from "./Pages/AboutPage";
 import SkillPage from "./Pages/SkillPage";
 import ProjectPage from "./Pages/ProjectPage";
-import ContactPage from "./pages/ContactPage";
+import ContactPage from "./Pages/ContactPage";
 import Resume from "./components/Resume";
 import ServicePage from "./pages/ServicePage";
 
