@@ -4,7 +4,7 @@ import './Navbar.css';
 
 const Navbar = () => {
 
-  return (
+  return ( 
     <>
     <div className="NavUp">
       <div className= "Logo" style={{display:"flex", justifyContent:"space-between", backgroundColor: "#0f0f0"}}>
