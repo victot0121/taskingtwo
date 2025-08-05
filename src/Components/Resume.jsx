@@ -1,6 +1,5 @@
-import React from 'react';
 import Navbar from "./Navbar";
-import Ola from "../assets/Oladoye_Jelili_Resume.pdf";
+import Ola from "../assets/Oladoye_jelili_Resume.pdf";
 import Ade from "../assets/ade.png";
 import './Resume.css';
 
