@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from "./Pages/HomePages";
 import AboutPage from "./Pages/AboutPage";
 import SkillPage from "./Pages/SkillPage";
-import ProjectPage from "./pages/ProjectPage";
+import ProjectPage from "./Pages/ProjectPage";
 import ContactPage from "./pages/ContactPage";
 import Resume from "./components/Resume";
 import ServicePage from "./pages/ServicePage";
